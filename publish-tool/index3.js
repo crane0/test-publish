@@ -11,7 +11,7 @@ fs.stat(filename, (error, stat) => {
     method: 'POST',
     headers: {
       // 流式数据，https://blog.csdn.net/wangjun5159/article/details/49644507
-      'Content-Type': 'application/application/octet-stream',
+      'Content-Type': 'application/octet-stream',
       'Content-Length': stat.size
     }
   };

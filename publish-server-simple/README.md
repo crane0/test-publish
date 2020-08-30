@@ -5,3 +5,6 @@
 也就是说，如果在 publish-tool 项目中，传递的是一个压缩包，那写到 server 项目中的，也是压缩包。
 
 2，`index2.js` 可以直接将压缩包解压后，写入 server 项目。
+
+
+3，`index3.js` 添加了 OAuth 的功能。
